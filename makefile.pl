@@ -4,4 +4,9 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'Statistics::ConwayLife',
     'VERSION_FROM' => 'ConwayLife.pm', # finds $VERSION
+	($] ge '5.005') ? (
+        'AUTHOR' => 'Dan Bjorkegren (dan_b@mail.com)',
+        'ABSTRACT' => 'Perl extension for simple life simulation',
+    ) : (),
+
 );

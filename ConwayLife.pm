@@ -11,7 +11,7 @@ require Exporter;
 @ISA = qw(Exporter);
 @EXPORT_OK  = qw( randomlife );
 
-$VERSION = '0.51';
+$VERSION = '0.52';
 
 
 sub new {

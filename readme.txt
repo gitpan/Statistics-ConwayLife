@@ -1,6 +1,5 @@
                       Statistics::ConwayLife
           Perl extension for simple life simulation.
-
 NAME
     Statistics::ConwayLife - Perl extension for simple life
     simulation.
@@ -55,6 +54,12 @@ DESCRIPTION
     number of living cells will become dead. This simple algorithm
     is able to describe the behavior of living cells and such quite
     well.
+
+VERSION HISTORY
+    .52 - final release (nothing changed except status)
+    .51 - beta release  (internals improved, package name changed to 
+          Statistics::ConwayLife)
+    .50 - alpha release (released under package Simulate::ConwayLife)
 
 AUTHOR
     Dan Bjorkegren, dan_b@mail.com
